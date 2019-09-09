@@ -23,7 +23,8 @@
     -webkit-transition:  color 0.4s ease-in-out;
 	-moz-transition:  color 0.2s ease-in-out;
 	-o-transition:  color 0.2s ease-in-out;
-	-ms-transition:  color 0.2s ease-in-out;
+	/* -ms-transition is no longer a valid property */
+	/*-ms-transition:  color 0.2s ease-in-out;*/
 	transition:  color 0.2s ease-in-out;
 }
 .st-accordion ul li > a span{
@@ -39,7 +40,7 @@
 	-webkit-transition:  all 0.2s ease-in-out;
 	-moz-transition:  all 0.2s ease-in-out;
 	-o-transition:  all 0.2s ease-in-out;
-	-ms-transition:  all 0.2s ease-in-out;
+	/*-ms-transition:  all 0.2s ease-in-out;*/
 	transition:  all 0.2s ease-in-out;
 }
 .st-accordion ul li > a:hover{
@@ -60,7 +61,7 @@
 	opacity:1;
 }
 .st-content{
-    padding: 5px 0px;
+    padding: 5px 0;
 }
 
 @media screen and (max-width: 320px){

@@ -38,8 +38,8 @@
     .to_top .close_panel {
         position: absolute;
         bottom: 20px;
-        left: 0px;
-        right: 0px;
+        left: 0;
+        right: 0;
         text-align: center;
         line-height: 8px;
         font-family: tahoma, arial, verdana, sans-serif;
@@ -59,7 +59,7 @@
     .to_top .to_top_button .arrow{
         font-size: 14px;
         font-weight: bold;
-        font-family: tahoma;
+        font-family: tahoma, sans-serif;
         vertical-align: middle;
     }
 
